@@ -1,0 +1,70 @@
+/* body,
+html 
+{
+  max-width: 100%;
+  overflow-x: hidden;
+} */
+
+#box #slider {
+    height: 50%;
+    /* max-width: 1200px; */
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    #slider,
+    #video-bg {
+        min-height: auto;
+        /* min-height: 800px; */
+    }
+    #slider #countdown ul li,
+    #video-bg #countdown ul li {
+        width: 5rem;
+    }
+    #slider .relative-z{
+        /* top: 180px; */
+        bottom: 140px;
+    }
+    #slider .counter{
+        position: relative;
+        top: 320px;
+    }
+    #footer {
+        background-position: 75% 50%;
+    }
+    #footer .big-heading{
+        position: relative;
+        bottom: 170px;
+    font-weight: bold;
+    }
+    #comment {
+        background-position: 75% 50%;
+    }
+}
+
+#footer {
+    height: 84vh;
+}
+.card-deck .card-title {
+    color: #f50f8c;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    display: none;
+}
+.navbar-light .navbar-brand {
+    margin: 0 auto;
+}
+
+.story-img-1, .story-img-2, .story-img-3, .story-img-4 {
+    box-shadow: 1px 1px 28px 1px #3e3e3e47;
+    border-radius: 2px 50px;
+}
+
+.visitors {
+    position: relative;
+    top: 50px;
+}
